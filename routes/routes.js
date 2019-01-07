@@ -16,13 +16,13 @@ var appRouter = function(app) {
 		res.status(200).send(data);
 	});
 
-	//users by id
-	app.get("/users/:uid", function(req, res) {
+	//return a number of users
+	app.get("/users/:quantity", function(req, res) {
 		var users = [];
-		var uid = req.params.uid;
+		var quantity = req.params.quantity;
 
-		if (isFinite(uid) && uid > 0) {
-			for (i = 0; i <= uid-1; i++) {
+		if (isFinite(quantity) && quantity > 0) {
+			for (i = 0; i <= quantity-1; i++) {
 				users.push({
 					firstName: faker.name.firstName(),
 					lastName: faker.name.lastName(),
