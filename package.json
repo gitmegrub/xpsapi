@@ -1,0 +1,23 @@
+{
+  "name": "xpsapi",
+  "version": "1.0.0",
+  "description": "api example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitmegrub/xpsapi.git"
+  },
+  "author": "glc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitmegrub/xpsapi/issues"
+  },
+  "homepage": "https://github.com/gitmegrub/xpsapi#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
